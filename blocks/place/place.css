@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    max-width: calc(100% - 48px * 2);
+    max-width: calc(100% - 96px);
     grid-template-columns: 440px auto;
     column-gap: 32px;
   }
@@ -20,20 +20,20 @@
   .place {
     grid-template-columns: 340px auto;
     column-gap: 28px;
-    max-width: calc(100% - 24px * 2);
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 564px) {
   .place {
-    grid-template-columns: repeat(auto-fill, 360px);
+    grid-template-columns: repeat(auto-fit, 360px);
     justify-content: center;
   }
 }
 
 @media screen and (max-width: 360px) {
   .place {
-    grid-template-columns: repeat(auto-fill, 320px);
+    grid-template-columns: repeat(auto-fit, 320px);
     max-width: 320px;
     row-gap: 32px;
   }
