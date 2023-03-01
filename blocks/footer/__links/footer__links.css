@@ -5,9 +5,15 @@
   justify-content: flex-start;
   list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer__links {
-    flex-direction: column;
     gap: 32px;
   }
 }

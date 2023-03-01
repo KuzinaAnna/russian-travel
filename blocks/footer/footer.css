@@ -2,6 +2,7 @@
   padding: 92px 48px 24px 48px;
   max-width: 1184px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -21,6 +22,5 @@
   .footer {
     max-width: 186px;
     padding: 64px 118px 24px 16px;
-    flex-direction: column;
   }
 }
