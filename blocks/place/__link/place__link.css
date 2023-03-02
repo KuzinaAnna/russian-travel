@@ -1,4 +1,6 @@
 .place__link {
+  display: inline-block;
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -10,6 +12,7 @@
 .place__link:hover {
   opacity: 0.5;
 }
+
 @media screen and (max-width: 320px) {
   .place__link {
     padding: 0 16px;
