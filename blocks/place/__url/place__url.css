@@ -12,6 +12,6 @@
 }
 @media screen and (max-width: 320px) {
   .place__url {
-    padding: 0 16px;
+    padding: 0 16px 12px 16px;
   }
 }
